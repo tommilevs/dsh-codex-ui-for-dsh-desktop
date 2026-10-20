@@ -249,7 +249,9 @@ export function CodexSettingsPage({ wide, sections, onboarding, connectionState,
       </div>
     </div>}
     <div ref={onboardingRoot} style={{ display: 'contents' }}>{step !== undefined && renderSlot('settings.onboarding', { stepId: step.id, complete: () => { setCompleted(previous => new Set([...previous, step.id])) }, openSection }, { only: step.id })}</div>
-    </>, document.body)}
+    {/* Desktop 2.0.17 inspects #root for visible content. Keep this portal
+        outside the transformed sidebar, but inside that observed root. */}
+    </>, document.getElementById('root') ?? document.body)}
   </>
 }
 
