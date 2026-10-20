@@ -187,3 +187,7 @@ New features should reuse existing DSH slots and public services. Do not depend 
 ## License
 
 This project is licensed under [Apache License 2.0](LICENSE).
+
+## Desktop fork
+Package identity: @tommilevs/dsh-codex-ui-for-dsh-desktop. Install using the Git URL of this fork pinned to a reviewed commit; upstream npm updates have a different package identity. Built lib/ is committed, no prepare/postinstall build is required. lucide-react is bundled into lib/client.js and is only needed for development. Upstream Apache-2.0 attribution is retained.
+

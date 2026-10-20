@@ -1,6 +1,6 @@
 {
-  "name": "@michengai/dsh-codex-ui",
-  "version": "1.1.45",
+  "name": "@tommilevs/dsh-codex-ui-for-dsh-desktop",
+  "version": "1.1.45-desktop.1",
   "description": "DSH Codex UI — 为 DeepSeek Harness Web 提供 Codex 风格侧栏、工作区会话树、全局搜索和轮次导航 · A Codex-style sidebar, workspace session tree, global search, and turn navigation for DSH Web",
   "license": "Apache-2.0",
   "publishConfig": {
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichengAI/dsh-codex-ui.git"
+    "url": "git+https://github.com/tommilevs/dsh-codex-ui-for-dsh-desktop.git"
   },
   "bugs": {
-    "url": "https://github.com/MichengAI/dsh-codex-ui/issues"
+    "url": "https://github.com/tommilevs/dsh-codex-ui-for-dsh-desktop/issues"
   },
-  "homepage": "https://github.com/MichengAI/dsh-codex-ui#readme",
+  "homepage": "https://github.com/tommilevs/dsh-codex-ui-for-dsh-desktop#readme",
   "type": "module",
   "packageManager": "pnpm@11.22.0",
   "engines": {
@@ -135,9 +135,8 @@
     "tsx": "^4.22.4",
     "typescript": "^6.0.3",
     "vitest": "^4.1.8",
-    "workflow-yaml": "npm:yaml@2.9.0"
-  },
-  "dependencies": {
+    "workflow-yaml": "npm:yaml@2.9.0",
     "lucide-react": "^1.39.0"
-  }
+  },
+  "dependencies": {}
 }

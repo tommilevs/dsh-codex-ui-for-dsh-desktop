@@ -2,6 +2,6 @@
 # 标题提供方的回退单独管理。
 - insert:
     - id: michengai-codex-ui-session-title
-      name: '@michengai/dsh-codex-ui/session-title'
+      name: '@tommilevs/dsh-codex-ui-for-dsh-desktop/session-title'
     - id: codex-ui
-      name: '@michengai/dsh-codex-ui'
+      name: '@tommilevs/dsh-codex-ui-for-dsh-desktop'
